@@ -1,0 +1,20 @@
+info:
+  build:
+    artifact: multithread-framework
+    name: multithread-framework
+    description: multithread-framework
+    version: '@project.version@'
+
+management:
+  port: 31121
+  security:
+    enabled: false
+
+server:
+  port: 11121
+  
+logging:
+  level:
+    com.copart: debug
+
+
