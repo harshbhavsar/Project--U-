@@ -8,7 +8,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>>multithread-framework</name>
+	<name>multithread-framework</name>
 	<description>>Multithread Framework Project for Spring Boot</description>
 
 	<parent>
