@@ -13,8 +13,21 @@ management:
 server:
   port: 11121
   
+security:
+  user:
+    password: null
+  basic:
+    enabled: false
+  
+
+spring:
+  
+  thymeleaf:
+    cache: false
+    mode: LEGACYHTML5
+
 logging:
   level:
-    com.copart: debug
-
-
+    org.springframework.security: DEBUG
+    org.springframework.web: DEBUG
+    com.englishasl: DEBUG 
